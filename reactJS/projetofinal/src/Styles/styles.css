@@ -1,0 +1,21 @@
+
+.Cards_Vendas{
+    display: flex;
+    width: 97vw;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.carrinho{
+    position: absolute;
+    right: 2vw;
+}
+.Cards_Vendas2{
+    display: flex;
+    width: 71.6vw;
+    margin-left: 25.4vw;
+}
+#tt{
+    display: none;
+}

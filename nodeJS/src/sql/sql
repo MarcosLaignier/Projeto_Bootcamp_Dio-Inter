@@ -1,0 +1,16 @@
+CREATE TABLE  sv_cards(
+    uuid uuid DEFAULT uuid_generate_v4(),
+    username VARCHAR NOT NULL,
+    mensagem VARCHAR NOT NULL,
+    data_envio TIMESTAMP,
+
+    PRIMARY KEY (uuid)
+)
+
+INSERT INTO sv_cards(
+    username , mensagem ,data_envio 
+    ) VALUES (
+        'admin','Admin',CURRENT_TIMESTAMP
+        );
+
+select * from sv_cards;
